@@ -1,0 +1,113 @@
+#page-container{
+    width: 760;
+    margin: auto; 
+}
+#header{
+  padding: 80px;
+  text-align: center;
+  background: brown;
+  color: white;
+}
+#header h1 {
+  font-size: 40px;
+}
+
+#nav-bar{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none; background-color: black;
+     
+}
+
+#nav-bar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(169, 169, 169, 0.8);
+    
+}
+
+#nav-bar li 
+{
+    width: 311px;   
+    float: left  
+}
+
+
+#nav-bar li a
+{
+    display: block;
+    color: #ffff;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+       
+}
+
+#nav-bar li a:hover 
+{
+    background-color: #555;
+    color: white;
+}
+
+#sidebar{
+  background-color:#e5e5e5;
+  float:right;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+#content
+{
+  
+  width:60%;
+  margin-right: 280px;
+  margin-top: 90px    
+}
+
+#content p
+{
+
+}
+#content img
+{
+   
+}
+
+.homeimage
+{
+  display: inline-block;
+      
+  
+}
+.homeimage img
+{
+    border-color: #555;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.homeimage p
+{
+    font-style: italic;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#contact{
+    
+}
+
+.active
+{
+    background-color: #4CAF50;
+}
