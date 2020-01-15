@@ -111,3 +111,7 @@
 {
     background-color: #4CAF50;
 }
+
+.pic2 {
+    display: flex;
+}
