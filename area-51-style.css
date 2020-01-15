@@ -1,5 +1,5 @@
 body {
-    background-color: aliceblue;
+    background-color: #8AA73B;
     font-family: cursive;
 }
 
@@ -10,4 +10,10 @@ body {
 .pic2 {
     display: flex;
     justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: 
 }
