@@ -1,0 +1,35 @@
+#page-container{
+    width: 760;
+    margin: auto;
+    background: red; 
+}
+#header{
+  padding: 80px;
+  text-align: center;
+  background: brown;
+  color: white;
+}
+#nav-bar{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;   
+}
+#sidebar{
+  background-color:#e5e5e5;
+  float:right;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+#content{
+  float:left;
+  width:60%;
+  padding:0 20px;  
+}
+#contact{
+    
+}
