@@ -1,14 +1,13 @@
 body {
     background-color: aliceblue;
+    font-family: cursive;
 }
 
-.background1 {
-    border: 1px solid black;
-    background:url(area-51.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+.pic1 {
+    text-align: center;
 }
 
 .pic2 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
