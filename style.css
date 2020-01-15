@@ -9,6 +9,9 @@
   background: brown;
   color: white;
 }
+#header h1 {
+  font-size: 40px;
+}
 #nav-bar{
   float: left;
   display: block;
