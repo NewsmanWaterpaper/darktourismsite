@@ -1,0 +1,14 @@
+body {
+    background-color: aliceblue;
+}
+
+.background1 {
+    border: 1px solid black;
+    background:url(area-51.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.pic2 {
+    text-align: center;
+}
