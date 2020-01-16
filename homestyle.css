@@ -172,7 +172,6 @@ img {
     margin-top: 90px    
 }
 
-<<<<<<< .merge_file_a10036
 #footer
 {    
   height: 80px;
@@ -180,9 +179,10 @@ img {
   padding: 10px;    
   color: antiquewhite;    
   background-image: linear-gradient(to bottom, #000000, #2d1218, #541923, #7c202a, #a52a2a);
-    
-=======
-footer {
-    margin: 40px 40px 0px 0px;
->>>>>>> .merge_file_a03392
+
+}
+
+textarea
+{
+    resize: vertical;
 }
