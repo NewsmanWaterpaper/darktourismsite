@@ -20,6 +20,14 @@
   padding: 14px 20px;
   text-decoration: none;   
 }
+#left-sidebar{
+  background-color:#e5e5e5;
+  float:right;
+  width:25%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
 #sidebar{
   background-color:#e5e5e5;
   float:right;
