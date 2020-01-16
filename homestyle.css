@@ -63,6 +63,12 @@
   margin-top:7px;
   text-align:center;
 }
+
+.warning
+{
+    font-style: italic;
+    font-size: 12px;
+}
 #content
 {
   
@@ -101,6 +107,7 @@
     width: 60%;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: courier;
 }
 
 #contact{
