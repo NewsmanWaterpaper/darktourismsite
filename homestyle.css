@@ -122,3 +122,12 @@
 .pic2 {
     display: flex;
 }
+
+.list-container {
+    display: flex;
+    justify-content:flex-start;
+}
+
+.picture-padding {
+    padding-left: 15px;
+}
