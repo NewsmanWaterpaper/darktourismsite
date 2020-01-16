@@ -179,5 +179,11 @@ img {
   padding: 10px;    
   color: antiquewhite;    
   background-image: linear-gradient(to bottom, #000000, #2d1218, #541923, #7c202a, #a52a2a);
-    
+
+}
+
+textarea
+{
+    resize: vertical;
+
 }
