@@ -18,7 +18,7 @@
   color: white;
   text-align: center;
   padding: 10px 10px;
-  text-decoration: none; background-color: black;
+  text-decoration: none;
      
 }
 
@@ -63,12 +63,6 @@
   margin-top:7px;
   text-align:center;
 }
-
-.warning
-{
-    font-style: italic;
-    font-size: 12px;
-}
 #content
 {
   
@@ -107,7 +101,6 @@
     width: 60%;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: courier;
 }
 
 #contact{
@@ -130,4 +123,10 @@
 
 .picture-padding {
     padding-left: 15px;
+}
+
+#nav-contents a {
+    float:left;
+    display: flex;
+    margin: 10px;
 }
