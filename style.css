@@ -46,8 +46,8 @@
 .container{
     background-color: antiquewhite;
 }
-#navbar a{
+#nav-bar a{
     float: left;
     display: flex;
-    margin: 10px;
+    margin-bottom: 0;
 }
