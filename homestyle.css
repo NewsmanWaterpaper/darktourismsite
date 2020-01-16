@@ -19,8 +19,11 @@
   color: white;
   text-align: center;
   padding: 10px 10px;
-  text-decoration: none;    
-
+  text-decoration: none;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;    
 
      
 }
@@ -29,8 +32,11 @@
 {
     list-style-type: none;
     margin: 0;
-    padding: 0px 146.9px;
+    padding: 0px 136.9px;
     overflow: hidden;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;  
     background-color: rgba(169, 169, 169, 0.8);
     
 }
