@@ -22,23 +22,12 @@
                 <p>To make a booking fill in the form below</p>
                 <form>
                     <div id="form"> Booking</div>
-                    <fieldset>
-			<legend>Your age</legend>
-			<div>
-				<label for="lt20">13 or under</label>
-				<input type="radio" name="age" id="lt20" value="lt20">
-			</div>
-			<div>
-				<label for="20to39">Over 13</label>
-				<input type="radio" name="age" id="20to39" value="20to39">
-			</div>
-
-                        <form action="/action_page.php">
-                            Travel Dates: <input type="date" name="bday">
-                            <input type="submit">
-                        </form>
-			
-                    </fieldset>
+                    <input name="query" autofocus>
+        
+                    <input name="visitor" list="Visitor-age">
+                    <datalist id="visitor-age">
+                        <option value="Under-13">
+                        
 		
                     
                 
