@@ -121,12 +121,16 @@
     justify-content:flex-start;
 }
 
+img {
+    border: solid;
+}
+
 .picture-padding {
     padding-left: 15px;
 }
 
 #nav-contents a {
-    float:left;
+    float: left;
     display: flex;
     margin: 10px;
 }
