@@ -5,11 +5,12 @@
 #header{
   padding: 80px;
   text-align: center;
-  background: brown;
+  background-image: linear-gradient(to bottom, #a52a2a, #7c202a, #541923, #2d1218, #000000);
   color: white;
 }
 #header h1 {
   font-size: 40px;
+  text-shadow: 0 0 25px rgba(0,0,0,1), 0 0 20px rgba(0,0,0,1), -6px -5px 20px rgba(0,0,0,1);  
 }
 
 #nav-bar{
@@ -18,7 +19,8 @@
   color: white;
   text-align: center;
   padding: 10px 10px;
-  text-decoration: none; background-color: black;
+  text-decoration: none;    
+  background-color: black;
      
 }
 
@@ -26,7 +28,7 @@
 {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0px 146.9px;
     overflow: hidden;
     background-color: rgba(169, 169, 169, 0.8);
     
@@ -35,7 +37,7 @@
 #nav-bar li 
 {
     width: 311px;   
-    float: left  
+    float: left;  
 }
 
 
@@ -46,17 +48,26 @@
     padding: 15px 15px;
     text-decoration: none;
     text-align: center;
-       
 }
 
 #nav-bar li a:hover 
 {
+    transition: all .25s linear;
     background-color: #555;
     color: white;
 }
 
 #sidebar{
   background-color:#e5e5e5;
+  float:right;
+  width:20%;
+  padding:15px;
+  margin-top:7px;
+  text-align:center;
+}
+
+#secondsidebar{
+  background-color: antiquewhite;
   float:right;
   width:20%;
   padding:15px;
@@ -86,28 +97,32 @@
    
 }
 
-.homeimage
+.homeimages
 {
   display: inline-block;
-      
+  float: left;
+  margin-left: 150px;
+  margin-right: auto;
+  
   
 }
-.homeimage img
+.homeimages img
 {
     border-color: #555;
     border-width: 5px;
     border-style: solid;
 }
 
-.homeimage p
+.homeimages p
 {
     font-style: italic;
-    margin-left: auto;
-    margin-right: auto;
     width: 60%;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 1;
+    margin-bottom: 1;
     font-family: courier;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
 }
 
 #contact{
