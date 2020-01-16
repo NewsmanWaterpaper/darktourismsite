@@ -80,12 +80,6 @@
    
 }
 
-#content51 {
-    width:60%;
-    margin-right: 280px;
-    margin-top: 90px    
-}
-
 .homeimage
 {
   display: inline-block;
@@ -138,4 +132,10 @@ img {
 #nav-contents a {
     float: left;
     margin: 10px;
+}
+
+#content51 {
+    width:60%;
+    margin-right: 280px;
+    margin-top: 90px    
 }
