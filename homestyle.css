@@ -15,16 +15,16 @@
 
 #nav-bar{
   float: left;
-  display: block;
   color: white;
   text-align: center;
   padding: 10px 10px;
+      
   text-decoration: none;
   background-color: black;
   border-style: solid;
   border-color: black;
   border-width: 5px;    
-
+  text-shadow: 2px 2px 5px #000000, 4px 4px 5px #000000;  
      
 }
 
