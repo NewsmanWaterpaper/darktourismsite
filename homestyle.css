@@ -20,7 +20,8 @@
   text-align: center;
   padding: 10px 10px;
   text-decoration: none;    
-  background-color: black;
+
+
      
 }
 
@@ -66,6 +67,7 @@
   text-align:center;
 }
 
+
 #secondsidebar{
   background-color: antiquewhite;
   float:right;
@@ -80,6 +82,7 @@
     font-style: italic;
     font-size: 12px;
 }
+
 #content
 {
   
@@ -117,6 +120,7 @@
 {
     font-style: italic;
     width: 60%;
+
     margin-top: 1;
     margin-bottom: 1;
     font-family: courier;
@@ -136,4 +140,23 @@
 
 .pic2 {
     display: flex;
+}
+
+.list-container {
+    display: flex;
+    justify-content:flex-start;
+}
+
+img {
+    border: solid;
+}
+
+.picture-padding {
+    padding-left: 15px;
+}
+
+#nav-contents a {
+    float: left;
+    display: flex;
+    margin: 10px;
 }
