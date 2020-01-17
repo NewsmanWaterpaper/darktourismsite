@@ -6,7 +6,7 @@
 #header{
   padding: 80px;
   text-align: center;
-  background: brown;
+  background-image: linear-gradient(to bottom, #a52a2a, #7c202a, #541923, #2d1218, #000000);
   color: white;
 }
 #header h1 {
@@ -14,11 +14,55 @@
 }
 #nav-bar{
   float: left;
-  display: block;
   color: white;
   text-align: center;
-  padding: 14px 10px;
-  text-decoration: none;   
+  padding: 10px 10px;
+      
+  text-decoration: none;
+  background-color: black;
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;    
+  text-shadow: 2px 2px 5px #000000, 4px 4px 5px #000000;  
+     
+}
+#nav-bar li 
+{
+    width: 311px;   
+    float: left;  
+}
+
+
+#nav-bar li a
+{
+    display: block;
+    color: #ffff;
+    padding: 15px 15px;
+    text-decoration: none;
+    text-align: center;
+}
+
+#nav-bar li a:hover 
+{
+    transition: all .25s linear;
+    background-color: #555;
+    color: white;
+}
+.active
+{
+    background-color: #4CAF50;
+}
+#nav-bar ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0px 136.9px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;  
+    background-color: rgba(169, 169, 169, 0.8);
+    
 }
 #left-sidebar{
   background-color:#e5e5e5;
@@ -32,14 +76,12 @@
   background-color:#e5e5e5;
   float:right;
   width:25%;
-  padding:15px;
   margin-top:7px;
   text-align:center;
 }
 #content{
   float:left;
-  width:60%;
-  padding:20px 20px;  
+  width:75%;  
   margin-top: 100px
   margin-left: 20px; 
 }
@@ -47,8 +89,19 @@
     background-color: antiquewhite;
 }
 #nav-bar a{
-    float: left;
-    display: flex;
-    margin-bottom: 0;
-    margin-right: 20;
+    margin-right: 20px;
 }
+#content p{
+    padding-left: 5px;
+}
+#footer
+{    
+  height: 80px;
+  clear: both;
+  padding: 10px;    
+  color: antiquewhite;    
+  background-image: linear-gradient(to bottom, #000000, #2d1218, #541923, #7c202a, #a52a2a);
+
+}
+
+
